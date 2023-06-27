@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #969bb3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  .article{
+    width:1300px;
+    margin:30px;
+    padding:15px;
+    background:#efefef;
+    border-radius:5px;
+    
+  }
+  .image{
+    background:rgb(187, 155, 187);
+    width:350px;
+    height:350px;
+    border-radius:5px;
+    padding:8px;
+    color:#efefef;
+    font-size:8rem;
+    &.right{
+      float:right;
+      margin-left:40px;
+    }
+    &.left{
+      float:left;
+      margin-right:40px;
+    }
+  }
+  .content{
+    padding: 0 20px;
+    color:#423c63;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+ 
+  .group{
+    &:before,
+    &:after {
+      content: "";
+      display: table;
+    } 
+    &:after {
+      clear: both;
+    }
+  }
+  .social-icons a {
+    display: inline-block;
+    color: #ebd4e8;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .instagram:hover {
+    color: #ff6e6e;
+  }
+  
+  .whatsapp:hover {
+    color: #25D366;
+  }
+  .footer{
+    background-color: #70566f;
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #fa5f93;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #3b203d;
+    background-color: #ffffff;
+  }
+  .footer-col p{
+      font-size: 18px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+    }
